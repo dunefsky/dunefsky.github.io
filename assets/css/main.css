@@ -3493,7 +3493,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		color: #ffffff;
+		color: #000000;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
