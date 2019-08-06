@@ -3523,11 +3523,11 @@ input, select, textarea {
 	}
 
 		#header input, #header select, #header textarea {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #000000;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3537,7 +3537,7 @@ input, select, textarea {
 			}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
