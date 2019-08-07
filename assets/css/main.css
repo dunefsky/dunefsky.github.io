@@ -29,7 +29,15 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
+	.crop {
+	 height: 300px;
+	 width: 400px;
+	 overflow: hidden;
+	}
+	.crop img {
+	 height: auto;
+	 width: 400px;
+	}
 body {
 	line-height: 1;
 }
