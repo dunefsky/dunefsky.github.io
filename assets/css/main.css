@@ -2915,6 +2915,10 @@ input, select, textarea {
 	}
 
 /* Section/Article */
+display: block;
+display: inline;
+white-space: nowrap;
+overflow: hidden;
 
 	section.special, article.special {
 		text-align: center;
