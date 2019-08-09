@@ -45,6 +45,10 @@ body {
 ol, ul {
 	list-style: none;
 }
+div {
+    width: 200px;
+    word-wrap: break-word;
+}
 
 blockquote, q {
 	quotes: none;
