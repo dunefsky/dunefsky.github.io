@@ -45,6 +45,7 @@ body {
 ol, ul {
 	list-style: none;
 }
+
 p{
     word-wrap: break-word;
 }
@@ -3875,9 +3876,9 @@ input, select, textarea {
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;
+				border-left-width: 4px;
 				border-style: solid;
-				border-top-width: 2px;
+				border-top-width: 4px;
 				text-align: center;
 			}
 
