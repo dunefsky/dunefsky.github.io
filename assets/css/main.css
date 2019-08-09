@@ -45,8 +45,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-div {
-    width: 200px;
+p{
     word-wrap: break-word;
 }
 
