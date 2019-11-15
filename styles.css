@@ -365,35 +365,24 @@ li .description {
 /*timeline ends*/
 
 /* ---- collapsible button ---- */
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+summary::-webkit-details-marker {
+  display: none
 }
-.active, .collapsible:hover {
-  background-color: #ccc;
+summary:after {
+  background: red;
+  border-radius: 5px;
+  content: "+";
+  color: #fff;
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: -5px 10px 0 0;
+  padding: 0;
+  text-align: center;
+  width: 20px;
 }
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
-    }
+details[open] summary:after {
+  content: "-";
 }
 /* collapsible button ends */
 
