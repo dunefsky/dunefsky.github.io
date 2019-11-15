@@ -369,7 +369,7 @@ summary::-webkit-details-marker {
   display: none
 }
 summary:after {
-  background: red;
+  background: white;
   border-radius: 5px;
   content: "+";
   color: #fff;
