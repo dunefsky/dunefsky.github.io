@@ -368,6 +368,12 @@ li .description {
 summary::-webkit-details-marker {
   display: none
 }
+summary:before {
+	content: "!"; /* the new icon */
+	color: #000000;
+	margin-right: 5px;
+}
+}
 summary:after {
   background: white;
   border-radius: 5px;
