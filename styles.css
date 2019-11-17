@@ -366,6 +366,8 @@ li .description {
 
 /* ---- collapsible button ---- */
 summary::-webkit-details-marker {
+	color: #FFFFFF;
+	background-color: #FFFFFF;
   display: none
 }
 summary:before {
