@@ -365,6 +365,12 @@ li .description {
 /*timeline ends*/
 
 /* ---- collapsible button ---- */
+/* Hide default arrow */
+summary::-moz-list-bullet {
+   list-style-type: none;
+   display: block;
+}
+/* Create customizable arrow */
 summary:before {
    content: ' ';
    border: solid #939faa;
