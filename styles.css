@@ -365,32 +365,13 @@ li .description {
 /*timeline ends*/
 
 /* ---- collapsible button ---- */
-summary::-webkit-details-marker {
-	color: #FFFFFF;
-	background-color: #FFFFFF;
-  display: none
-}
 summary:before {
-	content: "!"; /* the new icon */
-	color: #000000;
-	margin-right: 5px;
-}
-}
-summary:after {
-  background: white;
-  border-radius: 5px;
-  content: "+";
-  color: #000000;
-  float: left;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin: -5px 10px 0 0;
-  padding: 0;
-  text-align: center;
-  width: 20px;
-}
-details[open] summary:after {
-  content: "-";
+   content: ' ';
+   border: solid #939faa;
+   border-width: 0 2px 2px 0;
+   display: inline-block;
+   padding: 0 5px 5px 0;
+   transform: rotate(-45deg);
 }
 /* collapsible button ends */
 
